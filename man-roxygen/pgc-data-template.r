@@ -25,3 +25,5 @@
 #'
 #' @references
 #' <%= reference %> DOI: \href{https://doi.org/<%= doi %>}{<%= doi %>}.
+#'
+#' @family PGC datasets
