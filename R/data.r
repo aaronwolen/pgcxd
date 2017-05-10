@@ -1,3 +1,6 @@
+#' @importFrom tibble tibble
+NULL
+
 #' PGC Cross Disorder Summary Statistics
 #'
 #' Summary statistics for the 5 individual disorders used in the Psychiatric
