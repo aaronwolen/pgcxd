@@ -58,6 +58,11 @@ pgc.all <- pgc.files %>%
   map(read_table2, na = ".") %>%
   map(select, -X12)
 
+# convert chromosomes to factors
+chrs <- as.character(1:22)
+pgc.all <- pgc.all %>%
+  map(~ mutate(.x, hg18chr = factor(hg18chr, levels = chrs)))
+
 
 # save --------------------------------------------------------------------
 paths <- file.path("data", paste0(names(pgc.all), ".rda"))
