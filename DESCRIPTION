@@ -1,7 +1,7 @@
 Package: pgcxd
 Type: Package
 Title: PGC Cross Disorder Summary Statistics
-Version: 0.1.0
+Version: 0.1.1.9000
 Authors@R: person("Aaron", "Wolen", , "aaron@wolen.com", c("aut", "cre"))
 Description: Summary statistics for the 5 individual disorders used in the
     Psychiatric Genomics Consortium (PGC) cross disorder analysis.
